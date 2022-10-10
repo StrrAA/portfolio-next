@@ -27,7 +27,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scroll-smooth sm:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#FFE55C]/60">
       <Head>
-        <title>{pageInfo?.name} - Portfolio</title>
+        <title>{`${pageInfo?.name} - Portfolio`}</title>
       </Head>
 
       {/* Header */}
