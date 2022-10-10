@@ -31,7 +31,7 @@ function ContactMe({}: Props) {
       >
         <h4 className="text-lg sm:text-2xl 2xl:text-4xl font-semibold text-center">
           I have got just what you need.{" "}
-          <span className="decoration-[#FFE55C]/50 underline">Let's Talk.</span>
+          <span className="decoration-[#FFE55C]/50 underline">Let&apos;s Talk.</span>
         </h4>
 
         <div
