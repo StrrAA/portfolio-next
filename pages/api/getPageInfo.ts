@@ -15,11 +15,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  try {
-	const pageInfo: PageInfo = await sanityClient.fetch(query);
-	
-	  res.status(200).json({ pageInfo });
-} catch (error) {
-	console.log("error fetching page info", error);
-}
+  const pageInfo: PageInfo = await sanityClient.fetch(query);
+
+  res.status(200).json({ pageInfo });
 }
