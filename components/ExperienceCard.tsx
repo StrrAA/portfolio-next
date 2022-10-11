@@ -29,9 +29,9 @@ export default function ExperienceCard({ experience }: Props) {
       <div className="w-[80%] overflow-y-auto mt-2 sm:scrollbar-thin sm:scrollbar-track-transparent sm:scrollbar-thumb-[#FFE55C]/60
        px-0 md:px-10 sm:relative sm:w-[85%]">
         <h4 className="text-xl
-        sm:text-4xl font-light">{experience.jobTitle}</h4>
+        sm:text-4xl font-light">{experience?.jobTitle}</h4>
         <p className="text-lg
-        font-bold sm:text-2xl mt-1">{experience.company}</p>
+        font-bold sm:text-2xl mt-1">{experience?.company}</p>
         <div className="flex space-x-2 my-2">
           {experience.technologies?.map((technology) => (
             <img

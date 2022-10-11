@@ -10,7 +10,7 @@ type Props = {
 };
 
 function Projects({ projects }: Props) {
-  // const projects = [1, 2, 3, 4, 5];
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -66,7 +66,7 @@ function Projects({ projects }: Props) {
               </h4>
 
               <div className="flex items-center justify-center space-x-4 sm:space-x-8">
-                {project.technologies.map((technology) => (
+                {project?.technologies.map((technology) => (
                   <img
                     className="h-10 w-10 object-contain"
                     key={technology._id}

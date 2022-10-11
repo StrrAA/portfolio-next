@@ -49,9 +49,7 @@ export default function About({ pageInfo }: Props) {
         </h4>
 
         <p
-          className="
-        
-        text-base  sm:h-full sm:overflow-y-auto"
+          className="text-base  sm:h-full sm:overflow-y-auto"
         >
           {pageInfo?.backgroundInformation}
         </p>
